@@ -1,0 +1,37 @@
+<footer class="page-footer">
+  <div class="container">
+    <div class="row center">
+      <div class="col-md-4">
+
+        <h3>Our Services</h3>
+        <ul>
+          {{ range .Site.Params.menu.main }}
+          <li><a href="{{ .url }}"> {{ .name }}</a></li>
+          {{ end }}
+      </ul>
+      </div>
+
+<div class="col-md-4">
+  <h3>Community</h3>
+  <ul>
+    <li><a href="#">Live Chat</a></li>
+    <li><a href="#">Forum</a></li>
+    <li><a href="#">Github</a></li>
+</ul>
+</div>
+
+<div class="col-md-4">
+  <h3>Connect</h3>
+</div>
+</div>
+</div>
+
+
+<div class="footer-copyright">
+<div class="container licence">
+  <i class="icon-cc"></i>
+  <i class="icon-cc-by"></i>
+  <i class="icon-cc-sa"></i>
+</div>
+</div>
+</footer>

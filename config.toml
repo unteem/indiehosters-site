@@ -1,0 +1,130 @@
+baseurl = "/"
+config = "config.toml"
+DefaultContentLanguage ="en"
+SectionPagesMenu = ["main", "citoyen"]
+canonifyurls = true
+
+[[params.social]]
+name = "Facebook"
+icon = " "
+link = " "
+
+[[params.social]]
+name = "Twitter"
+icon = " "
+link = " "
+
+[[params.social]]
+name = "Github"
+icon = " "
+link = " "
+
+[[params.social]]
+name = "Chat"
+icon = " "
+link = " "
+
+[[params.social]]
+name = "Forum"
+icon = " "
+link = " "
+
+
+[Languages]
+[Languages.en]
+weight = 1
+title = "Manufacture of Ideas and New Experiments"
+info = "Open to publicg</br> on wednesdays at 18h00</br> or contact us"
+address = "1 Rue de Croix de Luizet</br> 69100 Villeurbanne"
+[[Languages.en.menu.main]]
+identifier = "home"
+name       = "Home"
+url        = "/en"
+weight     = 0
+
+[[Languages.en.menu.main]]
+identifier = "shop"
+name       = "Shop"
+url        = "/en/shop/"
+weight     = 1
+
+[[Languages.en.menu.main]]
+identifier = "service-level"
+name       = "Service Level"
+url        = "/en/sercice-level/"
+weight     = 2
+
+[[Languages.en.menu.main]]
+identifier = "contact"
+name       = "Contact us"
+url        = "/en/contact/"
+weight     = 3
+
+[[Languages.en.menu.main]]
+identifier = "news"
+name       = "News"
+url        = "/en/news/"
+weight     = 4
+
+[[Languages.en.menu.main]]
+identifier = "forum"
+name       = "Forums"
+url        = "/en/forum/"
+weight     = 5
+
+[[Language.en.features]]
+title = "No technicals skills needed. Just use and share."
+description = "Choose your modules, everything you need comes to you. If you have any question just touch the community or the team. We are real humans."
+picto = ""
+
+[[Language.en.features]]
+title = "Software that you need."
+description = "Free open source software to keep your files updated, calendars, contacts, emails, forums and other things betwee your hands."
+picto = ""
+
+[[Language.en.features]]
+title = "Keep control. You are libre."
+description = "Your rules are our rules. We help you with the infrastructure and softwares but you choose who can see what. Private information, stay Private"
+picto = ""
+
+[Languages.fr]
+weight = 2
+title = "Manufacture des Idées et Nouvelles Expérimentations"
+info = "Ouverture au public</br> le Mercredi à partir de 18h</br> ou contactez-nous"
+address = "1 Rue de Croix de Luizet</br>69100 Villeurbanne"
+
+[[Languages.fr.menu.main]]
+identifier = "home"
+name       = "Home"
+url        = "/en"
+weight     = 0
+
+[[Languages.fr.menu.main]]
+identifier = "shop"
+name       = "Shop"
+url        = "/en/shop/"
+weight     = 1
+
+[[Languages.fr.menu.main]]
+identifier = "service-level"
+name       = "Service Level"
+url        = "/en/sercice-level/"
+weight     = 2
+
+[[Languages.fr.menu.main]]
+identifier = "contact"
+name       = "Contact us"
+url        = "/en/contact/"
+weight     = 3
+
+[[Languages.fr.menu.main]]
+identifier = "news"
+name       = "News"
+url        = "/en/news/"
+weight     = 4
+
+[[Languages.fr.menu.main]]
+identifier = "forum"
+name       = "Forums"
+url        = "/en/forum/"
+weight     = 5
